@@ -33,9 +33,7 @@ public class ShopController {
     public Object getStates() {
         return Tool.decorateReturnObject(shopDao.getStates());
     }
-    /*
-    */
-
+   
     @PostMapping("/shops")
     public Object createShop(@Validated @RequestBody ShopNameVo vo, BindingResult bindingResult,
                              HttpServletRequest request, HttpServletResponse response ) {
