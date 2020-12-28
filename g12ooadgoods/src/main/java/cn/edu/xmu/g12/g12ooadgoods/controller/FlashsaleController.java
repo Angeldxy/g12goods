@@ -22,6 +22,8 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * 将秒杀活动限定为平台管理员才能修改
  */
+/*
+*/
 @RestController
 public class FlashsaleController {
     private static final Logger logger = LoggerFactory.getLogger(FlashsaleController.class);
